@@ -25,8 +25,8 @@ function About() {
 
     <article className='about__card'>
     <FaSchool className='about__icon' />
-    <h5>College</h5>
-    <small>IIITK</small>
+    <h5>College </h5>
+    <small> <a href="https://www.iiitkottayam.ac.in/#!/home" target='_blank'>IIITK </a></small>
     </article>
 
     <article className='about__card'>
@@ -38,7 +38,7 @@ function About() {
     <article className='about__card'>
     <FaProjectDiagram className='about__icon' />
     <h5>Projects</h5>
-    <small>10+ Completed</small>
+    <small><a href="https://github.com/NishantKumar21">Check here</a></small>
     </article>
     </div>
 <div className='para'>
