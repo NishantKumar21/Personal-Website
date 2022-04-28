@@ -1,0 +1,70 @@
+#project{
+    margin-top: -10rem;
+    padding-top: 3rem;
+}
+.projects__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+    
+}
+.projects__item{
+    background: var(--color-bg-variant);
+    height: 23.5rem;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.projects__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+.projects__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    height: 12rem;
+}
+.projects__item h3{
+    margin: 1.2rem 0 2rem;
+
+}
+.projects__item-cta{
+    display: flex;
+    gap: 1rem
+    ;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+/****************************************************** MEDIUM DEVICES ******************************************************** */
+
+@media screen and (max-width:1024px) {
+ .projects__container{
+     grid-template-columns: 1fr 1fr;
+     gap: 2rem;
+ }
+ #project{
+    padding-top: 13rem;
+}
+   
+    }
+          
+       
+       
+       /****************************************************** SMALL DEVICES ******************************************************** */
+       
+       
+       @media screen and (max-width:600px) {
+        .projects__container{
+            grid-template-columns: 1fr;
+            gap: 1.3rem;
+        }
+        #project{
+            padding-top: 28rem;
+            padding-left: 2.5rem;
+        }
+       }
