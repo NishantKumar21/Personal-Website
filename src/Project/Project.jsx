@@ -3,6 +3,7 @@ import './Project.css'
 import pro1 from '../assets/pro1.jpg'
 import img2 from '../assets/img2.png'
 import imgfirst from '../assets/imgfirst.png'
+import p3 from '../assets/p3.png'
 
 
 
@@ -40,12 +41,12 @@ function Project() {
 
    <article className="projects__item">
    <div className='projects__item-image'>
-   <img src={pro1} alt="" />
+   <img src={p3} alt="" />
    </div>
-   <h3>This is project 3</h3>
+   <h3>MoRe</h3>
    <div className='projects__item-cta'>
-   <a href="https://github.com/NishantKumar21" className='btn'>Github</a>
-   <a href="#" className='btn btn-primary' target='_blank'>Try it</a>
+   <a href="https://github.com/GadaCoders" className='btn'>Github</a>
+   <a href="https://mo-re-zeta.vercel.app/" className='btn btn-primary' target='_blank'>Try it</a>
    </div>
    </article>
 

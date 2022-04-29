@@ -42,7 +42,9 @@ function About() {
     </article>
     </div>
 <div className='para'>
-<p >I am a front-end web developer. I can provide clean code . I also make the website more & more interactive with web animations . A responsive design makes your website accessible to all users, regardless of their device.</p>
+<p >I am a web developement enthusiast , a fast learner, a good leader and always self-motivated. I love to play with
+ websites . I make them clean , effective yet easy to use and more beautiful. 
+</p>
 
 </div>
    
